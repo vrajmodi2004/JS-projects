@@ -1,0 +1,39 @@
+<!--Rock Paper Scissor-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>LET'S PLAY ROCK PAPER SCISSOR</h1>
+    <div class="computer">
+        <h2>Computer</h2>
+        <p>SELECT YOUR CARD AND I WILL SELECT MINE</p>
+        <p>I CHOSE: <span id="computerchose"></span></p>
+    </div>
+    <div class="player">
+        <h2>Your Choice</h2>
+        <div class="options">
+            <button><img src="images.png" alt="" id="rock"></button>
+            <button><img src="paper.png" alt="" id="paper"></button>
+            <button><img src="scissor.png" alt="" id="scissor"></button>
+        </div>
+    </div>
+    <div class="winner">
+        <div id="winnername">WHO WON</div>
+    </div>
+
+    
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span id="popup-close" class="popup-close">&times;</span>
+        <p id="popup-message"></p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
